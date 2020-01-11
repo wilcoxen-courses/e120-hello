@@ -18,13 +18,12 @@ it to the repository.
     1. Uses the print command three times to write the following lines to the
     file: `# Hello, World!`, a blank line, and a line with "Author:" followed
     by a space and the `author` string surrounded by Markdown's italics
-    notation.
+    notation;
     1. Closes the file.
-    1. When `hello2_file.py` is working properly, it should produce output
-    similar to `example.md`.
 
-1. Commit the finished versions of `hello2_file.py` and `hello2_file.md` to
-the repository.
+1. When `hello2_file.py` is working properly, it should produce output
+similar to `example.md`. Once you're happy with it, commit the finished
+versions of `hello2_file.py` and `hello2_file.md` to the repository.
 
 ### Submitting
 
