@@ -13,14 +13,14 @@ to write the string "Hello, World!" Once the script is working properly, commit
 it to the repository.
 
 1. Create a new script called `hello2_file.py` that does the following.
-    * Sets a string called `author` to your name;
-    * Opens a new file called `hello2_file.md` for writing;
-    * Uses the print command three times to write the following lines to the
+    1. Sets a string called `author` to your name;
+    1. Opens a new file called `hello2_file.md` for writing;
+    1. Uses the print command three times to write the following lines to the
     file: `# Hello, World!`, a blank line, and a line with "Author:" followed
     by a space and the `author` string surrounded by Markdown's italics
     notation.
-    * Closes the file.
-    * When `hello2_file.py` is working properly, it should produce output
+    1. Closes the file.
+    1. When `hello2_file.py` is working properly, it should produce output
     similar to `example.md`.
 
 1. Commit the finished versions of `hello2_file.py` and `hello2_file.md` to
