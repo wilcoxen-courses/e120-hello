@@ -23,9 +23,9 @@ it to the repository.
 
     1. Opens a new file called `hello2_file.md` for writing;
 
-    1. Writes three lines to the file using the `write()` method: the 
-    string `"# Hello, World!\n"`, a blank line (the string `"\n"`), and
-    a line consisting of the variable `author_msg`;
+    1. Writes four lines to the file using the `write()` method: the 
+    string `"# Hello, World!\n"`, a blank line (the string `"\n"`), 
+    a line consisting of the variable `author_msg`, and another blank line;
 
     1. Creates a numeric variable called `days` equal to the number 365;
     
