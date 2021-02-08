@@ -60,6 +60,7 @@ fh.write(name+"!\n")
 
 print("It was written during",year,file=fh)
 print("The answer is",total+1,file=fh)
+
 #  Close the file
 
 fh.close()
