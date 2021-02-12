@@ -6,6 +6,11 @@ This exercise goes over the basics of writing text from Python scripts. It also
 goes over concatenating strings and how scripts can create Markdown files,
 which can be convenient when preparing nicely-formatted output.
 
+### Deliverables
+
+Your finished repository should have three new files: scripts called **hello1.py**
+and **hello2_file.py** and an output file called **hello2_file.md**.
+
 ### Instructions
 
 1. Please create a new script called `hello1.py` that uses the `print` function
@@ -14,27 +19,27 @@ it to the repository.
 
 1. Create a new script called `hello2_file.py` that does the following.
 
-    1. Creates a variable called `author_name` that is equal to your name as 
+    1. Creates a variable called `author_name` that is equal to your name as
     a string;
 
     1. Uses string concatenation to create a new variable called `author_msg`
-    that is equal to the concatenation of three parts: the string `"Author: *"`, 
+    that is equal to the concatenation of three parts: the string `"Author: *"`,
     the variable `author_name`, and the string `"*\n"`;
 
     1. Opens a new file called `hello2_file.md` for writing;
 
-    1. Writes four lines to the file using the `write()` method: the 
-    string `"# Hello, World!\n"`, a blank line (the string `"\n"`), 
+    1. Writes four lines to the file using the `write()` method: the
+    string `"# Hello, World!\n"`, a blank line (the string `"\n"`),
     a line consisting of the variable `author_msg`, and another blank line;
 
     1. Creates a numeric variable called `days` equal to the number 365;
-    
+
     1. Creates a numeric variable called `hours` equal to the number 24;
-    
-    1. Writes one line to the file using the `print()` function with 
-    the arguments `"Hours per year:"` and `days*hours` plus the `file=` 
-    argument. 
-    
+
+    1. Writes one line to the file using the `print()` function with
+    the arguments `"Hours per year:"` and `days*hours` plus the `file=`
+    argument.
+
     1. Closes the file.
 
 1. If you aren't sure how to do one or more of these steps, have a look at the
@@ -56,12 +61,14 @@ you're done: you have submitted your answer.
 can be very helpful in projects that involve a lot of files. It ensures that
 the two are close to each other when someone looks through the directory.
 
-+ Having to include the `\n` explicitly at the end of lines in write statements 
-may seem annoying at first but actually it's very useful in some circumstances. 
-It allows you to build up a long line with several write calls before adding the 
++ Having to include the `\n` explicitly at the end of lines in write statements
+may seem annoying at first but actually it's very useful in some circumstances.
+It allows you to build up a long line with several write calls before adding the
 `\n`.
 
-+ The print function's automatic formatting is very handy but there are times 
++ The print function's automatic formatting is very handy but there are times
 when it can be undesirable. A prime example is when you don't actually want spaces
-inserted between variables. For example, `print("Author: *",author_name,"*")` adds 
-spaces between the asterisks and the name so the result looks like "Author: * Otto Orange *". That keeps the name from being shown in italics in a Markdown viewer.
+inserted between variables. For example, `print("Author: *",author_name,"*")` adds
+spaces between the asterisks and the name so the result looks like
+"Author: * Otto Orange *". That keeps the name from being shown in italics in a
+Markdown viewer.
