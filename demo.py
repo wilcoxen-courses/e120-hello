@@ -1,5 +1,9 @@
-#! /bin/python3
-#  Jan 20 (PJW)
+'''
+demo.py
+Jan 2020 PJW
+
+Demonstrate some basic operations with strings and files.
+'''
 
 #
 #  Example of string concatenation
