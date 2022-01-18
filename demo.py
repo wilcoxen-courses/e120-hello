@@ -1,8 +1,6 @@
 '''
-demo.py
-Jan 2020 PJW
-
 Demonstrate some basic operations with strings and files.
+Spring 2022 PJW
 '''
 
 #
