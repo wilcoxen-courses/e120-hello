@@ -1,7 +1,9 @@
-'''
-Demonstrate some basic operations with strings and files.
+"""
+demo.py
 Spring 2022 PJW
-'''
+
+Demonstrate some basic operations with strings and files.
+"""
 
 #
 #  Example of string concatenation
