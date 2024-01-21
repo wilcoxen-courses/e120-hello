@@ -10,7 +10,7 @@ Your finished repository should have three new files: scripts called **hello1.py
 
 ## Instructions
 
-1. Please create a new script called `hello1.py` that uses the `print` function to write the string "Hello, World!" Once the script is working properly, commit it to the repository.
+1. Please create a new script called `hello1.py` that uses the `print` function to write the string `"Hello, World!"` Once the script is working properly, commit it to the repository.
 
 1. Create a new script called `hello2_file.py` that does the following.
 
