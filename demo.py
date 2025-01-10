@@ -23,14 +23,14 @@ print(name)
 #
 
 s20 = '20'
-s21 = '21'
-year = s20+s21
+s25 = '25'
+year = s20+s25
 
 print( year )
 
 n20 = 20
-n21 = 21
-total = n20+n21
+n25 = 25
+total = n20+n25
 
 print( total )
 
@@ -47,8 +47,8 @@ filename = "demo.txt"
 fh = open(filename,"w")
 
 #  Use the write() method to write two lines. Note that
-#  write() only writes strings, and writes exactly what 
-#  it's given. As a result we need to add a return 
+#  write() only writes strings, and writes exactly what
+#  it's given. As a result we need to add a return
 #  character, \n, at the end of each line.
 
 fh.write("Where was this file was written?\n")
